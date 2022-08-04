@@ -1,0 +1,72 @@
+.topnav {
+    background-color: rgba(255,255,255,0.3);
+    overflow: hidden;
+  }
+  
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 27px;
+	position: relative;
+    margin-left: 3%;
+    font-weight: 900;
+    margin-top: 10px;
+
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: #ddd;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    text-decoration: underline;
+  }
+
+  .container {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.bg-img {
+    background-image: url("/assets/photos/1.jpg");
+  
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .logo-image img{
+    
+    max-width: 50%;
+    width: 25%; 
+    float: left;
+    overflow: visible;
+    margin-top: -16px;
+ 
+}
+
+  @media (max-width: 1000px) {
+    .topnav a {
+        font-size: 20px;
+        margin-top: -16px;
+      }
+      .container{
+        display: inline-block;
+
+      }
+      
+  .logo-image img{
+    margin-top: 2px;
+    
+  }
+  
+}
+
