@@ -1,0 +1,14 @@
+
+
+footer {
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid rgb(223, 223, 223);
+  background-color: rgb(222, 228, 222);
+  height:65px;
+  text-align: center;
+}
+p{
+    margin-top: 25px;
+    color: rgb(75, 72, 72);
+}
